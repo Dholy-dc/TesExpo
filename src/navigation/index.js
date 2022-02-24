@@ -1,3 +1,4 @@
+import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import BottomTab from "./bottomStack/bottomTab";
 import { Login } from "../pages";
