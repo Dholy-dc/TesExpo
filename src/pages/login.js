@@ -6,7 +6,7 @@ const Login = ({navigation}) => {
     setTimeout(() => {
       navigation.navigate('BottomTab');
     }, 1000);
-  },[])
+  },[navigation])
   return (
     <View>
       <Text>login</Text>
